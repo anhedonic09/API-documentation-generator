@@ -12,7 +12,6 @@ import java.util.*;
 @RestController
 @RequestMapping("/doc")
 public class Endpoints {
-
     @Autowired
     private GeneratePdf generatePdf;
 
